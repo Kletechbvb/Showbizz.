@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Make in bvb</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+  }
+
+  .container {
+    text-align: center;
+  }
+
+  .qr-code {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    border: 5px solid #4CAF50; /* Green border */
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .qr-code img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  p {
+    font-size: 18px;
+    color: #333;
+    margin: 20px 0;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .qr-code {
+      width: 150px;
+      height: 150px;
+    }
+  }
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="qr-code">
+    <img src="qr_code_image_link_here" alt="QR Code">
+  </div>
+  <p>Sorry, we are not responsive yet. Scan this code to open on a mobile phone.</p>
+</div>
+</body>
+</html>
